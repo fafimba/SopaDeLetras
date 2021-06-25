@@ -92,7 +92,7 @@ public class GridManager : MonoBehaviour
                                 letterTile.letter = wordArray[i];
                                 letterTile.SetLetterUI();
                                 letterTile.wordLetterSetted = true;
-                                letterTile.SetDefaultColor(Color.yellow);
+                              //  letterTile.SetDefaultColor(Color.yellow);
                             }
                         }
                         break;
@@ -124,7 +124,7 @@ public class GridManager : MonoBehaviour
                                 letterTile.letter = wordArray[i];
                                 letterTile.SetLetterUI();
                                 letterTile.wordLetterSetted = true;
-                                letterTile.SetDefaultColor(Color.yellow);
+                                //letterTile.SetDefaultColor(Color.yellow);
                             }
                         }
                         break;
@@ -157,7 +157,7 @@ public class GridManager : MonoBehaviour
                                 letterTile.letter = wordArray[i];
                                 letterTile.SetLetterUI();
                                 letterTile.wordLetterSetted = true;
-                                letterTile.SetDefaultColor(Color.yellow);
+                              //  letterTile.SetDefaultColor(Color.yellow);
                             }
                         }
 
@@ -190,77 +190,12 @@ public class GridManager : MonoBehaviour
                                 letterTile.letter = wordArray[i];
                                 letterTile.SetLetterUI();
                                 letterTile.wordLetterSetted = true;
-                                letterTile.SetDefaultColor(Color.yellow);
+                               // letterTile.SetDefaultColor(Color.yellow);
                             }
                         }
                         break;
                     default:
                         break;
-                }
-
-                if (Random.Range(0, 2) == 0)
-                {
-                   // if ((GridSize - x) < wordArray.Length)
-                   // {
-                   //     goodSpot = false;
-                   // }
-                   // else
-                   // {
-                   //     for (int i = 0; i < wordArray.Length; i++)
-                   //     {
-                   //         if (letterTiles[i + x, y].wordLetterSetted)
-                   //         {
-                   //             if (letterTiles[i + x, y].letter != wordArray[i])
-                   //             {
-                   //                 goodSpot = false;
-                   //             }
-                   //         }
-                   //     }
-                   // }
-                   //
-                   // if (goodSpot)
-                   // {
-                   //     for (int i = 0; i < wordArray.Length; i++)
-                   //     {
-                   //         LetterTile letterTile = letterTiles[i + x, y];
-                   //         letterTile.letter = wordArray[i];
-                   //         letterTile.SetLetterUI();
-                   //         letterTile.wordLetterSetted = true;
-                   //         letterTile.SetDefaultColor(Color.yellow);
-                   //     }
-                   // }
-                }
-                else
-                {
-                  //  if ((GridSize - y) < wordArray.Length)
-                  //  {
-                  //      goodSpot = false;
-                  //  }
-                  //  else
-                  //  {
-                  //      for (int i = 0; i < wordArray.Length; i++)
-                  //      {
-                  //          if (letterTiles[x, i + y].wordLetterSetted)
-                  //          {
-                  //              if (letterTiles[x, i + y].letter != wordArray[i])
-                  //              {
-                  //                  goodSpot = false;
-                  //              }
-                  //          }
-                  //      }
-                  //  }
-                  //
-                  //  if (goodSpot)
-                  //  {
-                  //      for (int i = 0; i < wordArray.Length; i++)
-                  //      {
-                  //          LetterTile letterTile = letterTiles[x, i + y];
-                  //          letterTile.letter = wordArray[i];
-                  //          letterTile.SetLetterUI();
-                  //          letterTile.wordLetterSetted = true;
-                  //          letterTile.SetDefaultColor(Color.yellow);
-                  //      }
-                  //  }
                 }
                 }
             }
